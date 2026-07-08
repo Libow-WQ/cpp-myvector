@@ -1,7 +1,7 @@
-项目名称：MyVector - 简易 C++ Vector 模板类
+项目名称：MyVector - C++ Vector 模板容器
 
 项目描述：
-使用 C++ 模板和动态内存管理实现简易版 vector 容器，模拟 STL vector 的核心功能，包括自动扩容、元素插入删除、下标访问、越界检查和迭代器遍历。
+使用 C++ 模板和动态内存管理实现简易版 vector 容器，模拟 STL vector 的核心功能，包括自动扩容、元素插入删除、下标访问、越界检查、深拷贝和迭代器遍历。
 
 技术点：
 1. C++ 模板类
@@ -11,6 +11,10 @@
 5. 运算符重载
 6. 指针迭代器
 7. 异常处理
+8. CMake 工程构建
 
 简历描述：
-基于 C++ 实现简易 MyVector 模板容器，支持 push_back、pop_back、at、operator[]、size、capacity 和迭代器遍历等功能，并实现容量不足时 2 倍自动扩容，体现了对 STL vector 底层机制、模板编程和动态内存管理的理解。
+基于 C++ 实现简易 MyVector 模板容器，支持 push_back、pop_back、at、operator[]、size、capacity 和迭代器遍历等功能，并实现容量不足时 2 倍自动扩容、深拷贝和越界异常检查，体现了对 STL vector 底层机制、模板编程、资源管理和 C++ 容器设计的理解。
+
+作品链接：
+https://github.com/Libow-WQ/cpp-myvector
